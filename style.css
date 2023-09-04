@@ -30,11 +30,11 @@ body{
 
 @keyframes container {
     
-    0%   {background-color:green; left:0px; top:0px;}
-    25%  {background-color:red; left:25px; top:0px;}
-    50%  {background-color:green; left:25px; top:25px;}
-    75%  {background-color:green; left:0px; top:25px;}
-    100% {background-color:red; right:0px; top:0px;
+    0%   {background-color:green; left:0px; top:0px; animation-timing-function: ease-in-out;}
+    25%  {background-color:red; left:25px; top:0px; animation-timing-function: ease-in-out;}
+    50%  {background-color:green; left:25px; top:25px; animation-timing-function: ease-in-out;}
+    75%  {background-color:green; left:0px; top:25px; animation-timing-function: ease-in-out;}
+    100% {background-color:red; right:0px; top:0px; animation-timing-function: ease-in-out;
 }
 }
 
@@ -55,12 +55,12 @@ body{
 }
 
 @keyframes width {
-    0%   {background-color:green; left:0px; top:0px;}
-    20%  {background-color:red; left:25px; top:0px;}
-    40%  {background-color:green; left:0px; top:0px;}
-    60%  {background-color:red; right:0px; top:0}
-    80% {background-color:black; right:0px;}
-    100%{background-color:black; top: 0px;}
+    0%   {background-color:green; left:0px; top:0px; animation-timing-function: ease-in-out;}
+    20%  {background-color:red; left:25px; top:0px; animation-timing-function: ease-in-out;}
+    40%  {background-color:green; left:0px; top:0px; animation-timing-function: ease-in-out;}
+    60%  {background-color:red; right:0px; top:0; animation-timing-function: ease-in-out;}
+    80% {background-color:black; right:0px; animation-timing-function: ease-in-out;}
+    100%{background-color:black; top: 0px; animation-timing-function: ease-in-out;}
 }
 
 div div .dot{
@@ -76,12 +76,12 @@ div div .dot{
 }
 @keyframes dot {
     
-    0%   {background-color:black; left:0px; top:0px;}
-    20%  {background-color:black; left:25px; top:0px;}
-    40%  {background-color:black; left:0px; top:0px;}
-    60%  {background-color:black; right:0px; top:0}
-    80% {background-color:black; right:0px;}
-    100%{background-color: black; top: 0px;}
+    0%   {background-color:black; left:0px; top:0px; animation-timing-function: ease-in-out;}
+    20%  {background-color:black; left:25px; top:0px; animation-timing-function: ease-in-out;}
+    40%  {background-color:black; left:0px; top:0px; animation-timing-function: ease-in-out;}
+    60%  {background-color:black; right:0px; top:0; animation-timing-function: ease-in-out;}
+    80% {background-color:black; right:0px; animation-timing-function: ease-in-out;}
+    100%{background-color: black; top: 0px; animation-timing-function: ease-in-out;}
 }
 
     
